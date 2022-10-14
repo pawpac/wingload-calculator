@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.skydiver {
+  height: 60%;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  height: 100%;
+  background-image: url('./img/sky.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.canopy {
+  height: 25%;
+  /* width: 100%; */
+}
+
+.canopy-img {
+  
+}
+
+.lines {
+  height: 25%;
+}
+
+.jumper {
+  height: 50%;
+  /* width: 50%; */
+}
+
+img {
+  height: 100%;
+  /* width: 100%; */
+}
