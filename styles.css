@@ -66,3 +66,10 @@ img {
 .diver-img-container {
   width: 30%;
 }
+
+.controls {
+  background-color: rgba(0, 0, 0, 0.37);
+  margin: 50px;
+  padding: 25px;
+  border-radius: 25px;
+}

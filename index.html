@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="lines.css">
+  <script src="script.js" defer></script>
   <title>Wingload Calculator</title>
 </head>
 <body>
@@ -77,7 +78,15 @@
 
     </div>
     <div class="controls">
-
+      <div class="wingloading">Wingloading: 1.0</div>
+      <div class="canopy-size">
+        <div class="digits">Canopy size: <span class="canopy-digits">190</span></div>
+        <input type="range" min="70" max="280" value="190" class="size-slider" id="size-slider">
+      </div>
+      <div class="jumper-size">
+        <div class="digits">Jumper weight: <span class="jumper-digits">190</span></div>
+        <input type="range" min="70" max="280" value="190" class="weight-slider" id="weight-slider">
+      </div>
     </div>
   </div>
 </body>
