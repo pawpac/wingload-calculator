@@ -27,7 +27,7 @@ body {
 
 .canopy {
   height: 25%;
-  width: 120%;
+  width: 110%;
   z-index: 1;
 }
 
@@ -38,7 +38,7 @@ body {
 .jumper {
   display: flex;
   height: 50%;
-  width: 100%;
+  width: 110%;
 }
 
 img {
@@ -47,7 +47,7 @@ img {
 }
 
 .lines {
-  width: 100%;
+  width: 110%;
   height: 25%;
   display: flex;
 }
