@@ -1,13 +1,21 @@
+.right-weight-rotate {
+  transform: rotate(-1deg);
+}
+
+.mid-left {
+  transform: rotate(1deg);
+}
+
 .line-point-one-one-left {
   width: 0;
   height: 0;
-  transform: rotate(135deg);
+  transform: rotate(140deg);
 }
 
 .line-point-one-two-left {
   width: 0;
   height: 0;
-  transform: rotate(138deg);
+  transform: rotate(142deg);
 }
 
 .line-point-two-one-left {
@@ -19,19 +27,19 @@
 .line-point-two-two-left {
   width: 0;
   height: 0;
-  transform: rotate(158deg);
+  transform: rotate(159deg);
 }
 
 .line-point-three-one-left {
   width: 0;
   height: 0;
-  transform: rotate(175deg);
+  transform: rotate(170deg);
 }
 
 .line-point-three-two-left {
   width: 0;
   height: 0;
-  transform: rotate(178deg);
+  transform: rotate(171deg);
 }
 
 .line-one-one-left {
@@ -49,7 +57,7 @@
 .line-two-one-left {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(201, 201, 201), rgba(70, 70, 70, 0),rgb(133, 133, 133));
+  background-image: linear-gradient(to top, rgba(201, 201, 201, 0), rgba(70, 70, 70, 0),rgb(133, 133, 133));
 }
 
 .line-two-two-left {
@@ -61,13 +69,13 @@
 .line-three-one-left {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(70, 70, 70),rgb(126, 126, 126));
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(70, 70, 70),rgb(126, 126, 126));
 }
 
 .line-three-two-left {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(219, 219, 219), rgb(70, 70, 70), rgb(70, 70, 70),rgb(150, 150, 150));
+  background-image: linear-gradient(to top, rgba(219, 219, 219, 0), rgb(70, 70, 70), rgb(70, 70, 70),rgb(150, 150, 150));
 }
 
 /* RIGHT */
@@ -75,19 +83,19 @@
 .line-point-one-one-right {
   width: 0;
   height: 0;
-  transform: rotate(182deg);
+  transform: rotate(187deg);
 }
 
 .line-point-one-two-right {
   width: 0;
   height: 0;
-  transform: rotate(185deg);
+  transform: rotate(190deg);
 }
 
 .line-point-two-one-right {
   width: 0;
   height: 0;
-  transform: rotate(202deg);
+  transform: rotate(203deg);
 }
 
 .line-point-two-two-right {
@@ -99,13 +107,13 @@
 .line-point-three-one-right {
   width: 0;
   height: 0;
-  transform: rotate(222deg);
+  transform: rotate(219deg);
 }
 
 .line-point-three-two-right {
   width: 0;
   height: 0;
-  transform: rotate(225deg);
+  transform: rotate(215deg);
 }
 
 .line-one-one-right {
@@ -123,7 +131,7 @@
 .line-two-one-right {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(201, 201, 201), rgba(153, 153, 153, 0),rgb(70, 70, 70));
+  background-image: linear-gradient(to top, rgba(201, 201, 201, 0), rgba(153, 153, 153, 0),rgb(70, 70, 70));
 }
 
 .line-two-two-right {
@@ -135,11 +143,11 @@
 .line-three-one-right {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(70, 70, 70),rgb(70, 70, 70));
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(70, 70, 70),rgb(70, 70, 70));
 }
 
 .line-three-two-right {
   width: 1px;
   height: 220px;
-  background-image: linear-gradient(to top, rgb(219, 219, 219), rgb(70, 70, 70), rgb(70, 70, 70),rgb(70, 70, 70));
+  background-image: linear-gradient(to top, rgba(219, 219, 219, 0), rgb(70, 70, 70), rgb(70, 70, 70),rgb(70, 70, 70));
 }
